@@ -1,0 +1,28 @@
+.cabecalho{
+    background-color: #707070;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__logo{
+    height: 5vh;
+    margin: 1em;
+}
+
+.cabecalho__menu__links{
+    text-decoration: none;
+    margin: 2em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.cabecalho__contatos{
+    margin: 1em;
+}
+
+.cabecalho__contatos__item{
+    height: 4vh;
+    margin-left: 1em;
+}

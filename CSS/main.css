@@ -1,0 +1,36 @@
+@import url(footer.css);
+@import url(header.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/Micro.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding: 5em;
+    margin: 1em;
+    border-radius: 2em;
+}
+
+.teste__titulo{
+    font-size: 4em;
+    font-weight: 800;
+    color: white;
+}
+
+.teste__texto{
+    font-size: 2em;
+    font-weight: 500;
+}
