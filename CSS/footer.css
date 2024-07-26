@@ -1,0 +1,42 @@
+.rodape__infos__direita__img{
+    height: 5vh;
+}
+
+.rodape__infos__esquerda__img{
+    height: 8vh;
+}
+
+.rodape{
+    background-color: aqua;
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.rodape__infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+
+}
+
+.rodape__infos__esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.rodape__infos__direita{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.rodape__infos__direita__dados{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.credito{
+    text-align: center;
+}

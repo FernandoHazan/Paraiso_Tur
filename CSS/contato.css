@@ -1,0 +1,25 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-top: 5em;
+}
+
+.contato__img{
+    height: 15vh;
+}
+
+.contato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    padding: 2em;
+    gap: 0.8em;
+}
+
+.contato__form__sup{
+    display: flex;
+    gap: 0.5em;
+}

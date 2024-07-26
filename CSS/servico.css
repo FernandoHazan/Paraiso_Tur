@@ -1,0 +1,27 @@
+.servico{
+    display: flex;
+    flex-direction: column;
+    margin: 7em;
+    gap: 5em;
+}
+
+.servico__caixas{
+    display: flex;
+    gap: 10em;
+}
+
+.servico__caixas__blocos{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.servico__caixas__img{
+    height: 5vh;
+    width: 5vh;
+}
+.servico__caixas__blocos__subtitulo{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
