@@ -1,5 +1,5 @@
 .cabecalho{
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     height: 8vh;
     display: grid;
     grid-template-areas: "logo nav contatos";
