@@ -22,8 +22,13 @@
 .cabecalho__menu__links{
     text-decoration: none;
     margin: 0 2em 0 2em;
-    font-size: 2.5em;
-    font-weight: 800;
+    font-size: 2em;
+    font-weight: 600;
+    color: #2c3790;
+}
+
+.cabecalho__menu__links:hover{
+    color: rgb(34, 0, 255);
 }
 
 .cabecalho__contatos{
@@ -35,4 +40,37 @@
 .cabecalho__contatos__item{
     height: 4vh;
     margin-left: 1.8em;
+}
+
+@media only screen and (max-width : 1439px) {
+
+    .cabecalho{
+        padding: 0 1em 0 1em;
+        grid-auto-columns: 0fr 0fr 0fr;
+        justify-content: space-between;
+    }
+
+    .cabecalho__logo{
+        height: 4vh;
+    }
+
+    .cabecalho__menu__links{
+        margin: 0 1rem 0 1rem;
+        font-size: 2em;
+    }
+
+    .cabecalho__contatos__item{
+        height: 3.5vh;
+        margin-left: 1.8em;
+    }
+}
+
+@media only screen and (max-width : 719px){ 
+    .cabecalho__contatos{
+        display: none;
+    }
+
+    .cabecalho__menu{
+    display: none;
+}
 }

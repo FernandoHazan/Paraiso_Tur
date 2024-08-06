@@ -2,7 +2,7 @@
     display: grid;
     height: 60vh;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 10rem 6em 60rem 6em;
+    padding: 6rem 6em 60rem 6em;
     column-gap: 10rem;
     row-gap: 10rem;
     grid-template-areas: 
@@ -40,6 +40,7 @@
     align-items: center;
     gap:  1rem;
     font-size: 3.5rem;
+    color: #333333;
 }
 
 .servico__caixas__img{
@@ -49,5 +50,69 @@
 
 .servico__caixas__texto{
     font-size: 2rem;
+    color: #707070;
 }
 
+@media only screen and (max-width : 1439px) {
+    .servico{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        padding: 6rem 6em 6rem 6em;
+        column-gap: 10rem;
+        row-gap: 10rem;
+        grid-template-areas: 
+            "titulo titulo"
+            "cont1 cont2"
+            "cont3 cont3";
+    }
+
+    .servico__titulo{
+        font-size: 7rem;
+    }
+
+    #caixa3{  
+        text-align: center;      
+        justify-self: center;
+    }
+
+    .servico__caixas__subtitulo{
+        font-size: 3rem;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width : 719px){
+    .servico__titulo{
+        font-size: 4rem;
+    }
+
+    .servico{
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 6rem 2rem 6rem 2rem;
+        row-gap: 5rem;
+        grid-template-areas: 
+            "titulo"
+            "cont1"
+            "cont2"
+            "cont3";
+    }
+
+    #caixa3{  
+        text-align: start;      
+    }
+
+    .servico__caixas__subtitulo{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap:  1rem;
+        font-size: 3rem;
+        color: #333333;
+    }
+
+    .servico__caixas__texto{
+        font-size: 1.5rem;
+        color: #707070;
+    }
+}

@@ -10,9 +10,9 @@
     <header class="cabecalho">
         <img src="../img/logo.png" alt="Logo da Paraíso Tur" class="cabecalho__logo">
         <nav class="cabecalho__menu">
-            <a href="#" class="cabecalho__menu__links">Serviços</a>
-            <a href="#" class="cabecalho__menu__links">Frota</a>
-            <a href="#" class="cabecalho__menu__links">Contato</a>
+            <a href="#servico" class="cabecalho__menu__links">Serviços</a>
+            <a href="#frota" class="cabecalho__menu__links">Frota</a>
+            <a href="#contato" class="cabecalho__menu__links">Contato</a>
         </nav>
         <div class="cabecalho__contatos">
             <img src="../img/telefone.png" alt="Simbolo de telefone" class="cabecalho__contatos__item"> 
@@ -24,7 +24,7 @@
         <p class="banner__texto">Faça um orçamento e descubra como podemos ajudar</p>
         <button class="banner__botao">Orçamento já</button>
     </section> 
-    <section class="servico">
+    <section class="servico" id="servico">
         <h2 class="servico__titulo">Nossos Serviços:</h2>
             <div class="servico__caixas" id="caixa1">
                 <div class="servico__caixas__subtitulo">
@@ -48,72 +48,72 @@
                 <p class="servico__caixas__texto">Planeje suas viagens com o nosso serviço de transporte personalizado. Seja para excursões, passeios turísticos ou viagens de longa distância, oferecemos soluções de transporte que combinam conforto, segurança e praticidade. Nossa equipe se dedica a proporcionar uma experiência de viagem inesquecível,.</p>
             </div>
     </section>
-    <section class="frota">
+    <section class="frota" id="frota">
         <div class="frota__titulo">
-            <h2>Nossa Frota</h2>
-            <p>Conheça nossa frota moderna e bem equipada, pronta para garantir uma viagem segura e confortável para você e seus passageiros.</p>
+            <h2 class="frota__titulo__titulo">Nossa Frota</h2>
+            <p class="frota__sub">Conheça nossa frota moderna e bem equipada, pronta para garantir uma viagem segura e confortável para você e seus passageiros.</p>
         </div>
         <div class="frota__caixa">
             <h3 class="frota__caixa__titulo">Micro-Ônibus:</h3>
             <div class="frota__caixa__infos">
                 <img src="../img/icon-microonibus.png" alt="" class="frota__caixa__infos__img">
-                <p>informação</p>
-                <p>informação</p>
-                <p>informação</p>
-                <p>informação</p> 
-                <p>informação</p> 
-                <p>informação</p>  
+                <p class="caixa__infos">26 Lugares</p>
+                <p class="caixa__infos">-</p>              
+                <p class="caixa__infos cor">Ar-condicionado</p>
+                <p class="caixa__infos">-</p>                
+                <p class="caixa__infos cor">Som Ambiente</p>
+                <p class="caixa__infos">-</p>                   
+                <p class="caixa__infos cor">Televisão</p>
+                <p class="caixa__infos">-</p>     
+                <p class="caixa__infos cor">Banheiro</p>
+                <p class="caixa__infos">-</p>             
+                <p class="caixa__infos cor">Frigobar</p>               
             </div>
-                <img src="../img/Micro.jpeg" alt="" class="frota__caixa__infos__img__imagem">
+            <picture>
+                    <source media="(max-width: 1440px)" srcset="img/micro-cell.jpeg" class="frota__caixa__infos__img__imagem">
+                    <img src="img/Micro.jpeg" class="frota__caixa__infos__img__imagem">
+            </picture>
                 <button class="fota__caixa__botao">Solicitar Veiculo</button>
         </div>
         <div class="frota__caixa2">
             <h3 class="frota__caixa__titulo2">Van:</h3>
             <div class="frota__caixa__infos2">
                 <img src="../img/icon-van.png" alt="" class="frota__caixa__infos__img">
-                <p>informação</p>
-                <p>informação</p>
-                <p>informação</p>
-                <p>informação</p> 
-                <p>informação</p> 
-                <p>informação</p>  
+                <p class="caixa__infos">Carregador de Celular</p>
+                <p class="caixa__infos">-</p>              
+                <p class="caixa__infos cor">Ar-condicionado</p>
+                <p class="caixa__infos">-</p>                
+                <p class="caixa__infos cor">Som Ambiente</p>
+                <p class="caixa__infos">-</p>                   
+                <p class="caixa__infos cor">Televisão</p>
+                <p class="caixa__infos">-</p>     
+                <p class="caixa__infos cor">Banheiro</p>
+                <p class="caixa__infos">-</p>             
+                <p class="caixa__infos cor">Frigobar</p>
             </div>
-                <img src="../img/van.png" alt="" class="frota__caixa__infos__img__imagem2">
+            <picture>
+                <source media="(max-width: 1440px)" srcset="img/micro-cell.jpeg" class="frota__caixa__infos__img__imagem">
+                <img src="img/van.png" class="frota__caixa__infos__img__imagem">
+            </picture>
                 <button class="fota__caixa__botao2">Solicitar Veiculo</button>
         </div>
-    </section>
-
-    
-    
-    
-    <section class="contato">
+    </section>  
+    <section class="contato" id="contato">
         <img src="../img/logo.png" alt="" class="contato__img">
-        <p>"Estamos prontos para ajudar! Entre em contato conosco e tire suas dúvidas ou solicite um orçamento personalizado."</p>
+        <p class="contato__sub">"Estamos prontos para ajudar! Entre em contato conosco e tire suas dúvidas ou solicite um orçamento personalizado."</p>
         <h2>Entre em contato</h2>
         <div class="contato__form">
-            <div class="contato__form__sup">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-            </div>
-            <input type="text">
+            <input type="text" id="nome" placeholder="Nome" class="contato__input">
+            <input type="text" id="email" placeholder="Email" class="contato__input">
+            <input type="text" id="fone" placeholder="Fone" class="contato__input">
+            <input type="text" id="msg" placeholder="Mensagem" class="contato__input">
         </div>
     </section>
-
-   
-   
-   
-   
-   
-   
-   
-   
     <footer class="rodape">
         <div class="rodape__infos">
             <div class="rodape__infos__esquerda">
-                <img src="../img/logo.png" alt=""
-                class="rodape__infos__esquerda__img">
-                <p>Florianópolis - Santa Catarina<br>Brasil</p>
+                <img src="../img/logo.png" alt="" class="rodape__infos__esquerda__img">
+                <p class="rodape__local">Florianópolis - Santa Catarina<br>Brasil</p>
             </div>
             <div class="rodape__infos__direita">
                 <div class="rodape__infos__direita__dados">
@@ -127,8 +127,6 @@
             </div>
         </div>
         <p class="credito">Feito por Fernando Hazan Vieira</p>
-    </footer>
-
-    
+    </footer>  
 </body>
 </html>

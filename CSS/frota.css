@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 15rem;
+    padding-top: 5rem;
 }
 
 .frota__titulo{
@@ -10,7 +11,18 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    font-size: 3rem;
+}
+
+.frota__titulo__titulo{
+    font-size: 8rem;
+    color: #2C3790;
+}
+
+.frota__sub{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 20rem 0 20rem;
+    color: #333333;
 }
 
 .frota__caixa{
@@ -25,12 +37,17 @@
         "box butom";
 }
 
+.caixa__infos:last-child{
+    margin-bottom: 2rem;
+}
+
 .frota__caixa__titulo{
     grid-area: titulo;
     font-size: 6rem;
     margin-bottom: 4rem;
     align-self: center;
     justify-self: center;
+    color: #F5821F;
 }
 
 .frota__caixa__infos{
@@ -39,10 +56,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 0.2em;
     width: 100%;
     padding-top: 1rem;
     font-size: 2rem;
+    border-radius: 5px;
 }
 
 .frota__caixa__infos__img{
@@ -57,9 +75,13 @@
 .fota__caixa__botao{
     grid-area: butom;
     justify-self: center;
-    width: 20rem;
+    width: 25rem;
     font-size: 2rem;
     border-radius: 1rem;
+    background-color: #1c7ce2;
+    color: white;
+    width:200px;
+    height: 65px;
 }
 
 
@@ -78,6 +100,7 @@
 .frota__caixa__titulo2{
     grid-area: titulo;
     font-size: 6rem;
+    color: #F5821F;
     margin-bottom: 4rem;
     align-self: center;
     justify-self: center;
@@ -89,10 +112,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 0.2em;
     width: 100%;
     padding-top: 1rem;
     font-size: 2rem;
+    border-radius: 5px;
 }
 
 .frota__caixa__infos__img__imagem2{
@@ -106,4 +130,86 @@
     width: 20rem;
     font-size: 2rem;
     border-radius: 1rem;
+    background-color: #1c7ce2;
+    color: white;
+    width:200px;
+    height: 65px;
+
+}
+
+.cor{
+    color: #333333;
+}
+
+@media only screen and (max-width : 1439px){
+    .frota__sub{
+        margin: 0 5rem 0 5rem;
+    }
+
+    .frota{
+        gap: 5rem;
+    }
+
+    .frota__caixa__infos2{
+        padding-top: 1rem;
+        font-size: 2rem;
+        border-radius: 5px;
+    }
+
+    .caixa__infos{
+        margin-top: auto;
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (max-width : 719px) {
+    .frota__caixa{
+        grid-template-columns: 1fr;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+       grid-template-areas: 
+            "titulo"
+            "img"
+            "butom"
+            "box"
+    }
+
+    .frota__caixa2{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+       grid-template-areas: 
+            "titulo"
+            "img"
+            "butom"
+            "box"
+    }
+
+    .frota__titulo__titulo{
+        font-size: 5.5rem;
+        text-align: center;
+    }
+
+    .frota__sub{
+        font-size: 1.5rem;
+        margin: 0 2rem 0 2rem;
+    }
+
+    .frota__caixa__titulo{
+        font-size: 4rem;
+        margin-bottom: 0rem;
+    }
+
+    .frota__caixa__titulo2{
+        font-size: 4rem;
+        margin-bottom: 0rem;
+    }
+
+    .caixa__infos{
+        margin-top: auto;
+        font-size: 2vh;
+    }
 }

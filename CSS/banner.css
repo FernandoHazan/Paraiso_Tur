@@ -11,20 +11,53 @@
 }
 
 .banner__titulo{
-    width: 100%;
-    font-size: 8em;
-    font-weight: 800;
-    color: rgb(9, 255, 0);
-    background-color:hsla(0, 0%, 0%, 0.5);
+    font-size: 9em;
+    color: #F5821F;
+    text-shadow: black 0px 10px 6px;
+    font-family: "Lobster", sans-serif;
 }
 
 .banner__texto{
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 500;
-    color: rgb(76, 0, 255);
+    color: white;
+    margin-left: 1rem;
+    text-shadow: black 0px 5px 6px;
+    font-family: "oswald", sans-serif;
 }
 
 .banner__botao{
-    width: 30vh;
-    height: 5vh;
+    width: 25vh;
+    height: 6.5vh;
+    color: white;
+    background-color: #1c7ce2;
+    margin-top: 2rem;
+    border-radius: 0.6rem;
+    margin-left: 1rem;
+    font-family: "roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+    border-color:#707070;
+}
+
+@media only screen and (max-width : 719px){
+    .banner{
+        background-image: url(../img/micro-cell.jpeg);
+        height: 60%;
+    }
+
+    .banner__titulo{
+        font-size: 3.8em;
+    }
+
+    .banner__texto{
+        font-size: 1.5em;
+    }
+
+    .banner__botao{
+        width: 20vh;
+        height: 4.5vh;
+        font-size: 1.2rem;
+    }
 }
