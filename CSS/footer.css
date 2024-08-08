@@ -29,7 +29,7 @@
 .rodape__infos__direita{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     gap: 2em;
 }
 
