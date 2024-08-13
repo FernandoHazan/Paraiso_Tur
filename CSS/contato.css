@@ -25,7 +25,8 @@
     grid-template-rows: 1fr 4fr;
     grid-template-areas: 
         "nome email fone"
-        "msg msg msg" ;
+        "msg msg msg" 
+        "botao botao botao";
 }
 .contato__input{
     border-radius: 4px;
@@ -58,6 +59,11 @@
     text-align: center;
 }
 
+.botao__form{
+    grid-area: botao;
+}
+
+
 @media only screen and (max-width : 1439px){
     .contato__img{
         height: 15vh;
@@ -79,7 +85,8 @@
         grid-template-rows: 1fr 4fr;
         grid-template-areas: 
             "nome email fone"
-            "msg msg msg" ;
+            "msg msg msg" 
+            "botao botao botao";
     }
 }
 
@@ -102,7 +109,8 @@
             "nome"
             "email" 
             "fone"
-            "msg";
+            "msg"
+            "botao";
     }
 
     .contato__input{

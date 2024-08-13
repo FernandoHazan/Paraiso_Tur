@@ -102,12 +102,13 @@
         <img src="../img/logo.png" alt="" class="contato__img">
         <p class="contato__sub">"Estamos prontos para ajudar! Entre em contato conosco e tire suas dúvidas ou solicite um orçamento personalizado."</p>
         <h2>Entre em contato</h2>
-        <div class="contato__form">
-            <input type="text" id="nome" placeholder="Nome" class="contato__input">
-            <input type="text" id="email" placeholder="Email" class="contato__input">
-            <input type="text" id="fone" placeholder="Fone" class="contato__input">
-            <input type="text" id="msg" placeholder="Mensagem" class="contato__input">
-        </div>
+        <form class="contato__form" action="https://api.sheetmonkey.io/form/jpTCLmJ2utpkFj8STe6T2T" method="post">
+            <input type="text" id="nome" placeholder="Nome" class="contato__input" name="nome">
+            <input type="email" id="email" placeholder="Email" class="contato__input" name="email">
+            <input type="number" id="fone" placeholder="Fone" class="contato__input" name="telefone">
+            <input type="text" id="msg" placeholder="Mensagem" class="contato__input" name="mensagem">
+            <button type="submit" class="botao__form">enviar</button>
+        </form>
     </section>
     <footer class="rodape">
         <div class="rodape__infos">
