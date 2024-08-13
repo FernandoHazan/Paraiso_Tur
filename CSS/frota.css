@@ -19,7 +19,7 @@
 }
 
 .frota__sub{
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     margin: 0 20rem 0 20rem;
     color: #333333;
@@ -43,7 +43,7 @@
 
 .frota__caixa__titulo{
     grid-area: titulo;
-    font-size: 6rem;
+    font-size: 4.5rem;
     margin-bottom: 4rem;
     align-self: center;
     justify-self: center;
@@ -74,7 +74,11 @@
 
 .fota__caixa__botao{
     grid-area: butom;
+    width: 100%;
+    height: 60px;
     justify-self: center;
+    align-self: flex-end;
+    white-space: nowrap;
     padding: 2rem;
     text-decoration: none;
     text-align: center;
@@ -99,7 +103,7 @@
 
 .frota__caixa__titulo2{
     grid-area: titulo;
-    font-size: 6rem;
+    font-size: 4.5rem;
     color: #F5821F;
     margin-bottom: 4rem;
     align-self: center;
@@ -130,7 +134,11 @@
 
 .fota__caixa__botao2{
     grid-area: butom;
+    width: 100%;
+    height: 60px;
     justify-self: center;
+    align-self: flex-end;
+    white-space: nowrap;
     padding: 2rem;
     text-decoration: none;
     text-align: center;

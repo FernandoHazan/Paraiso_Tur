@@ -49,8 +49,8 @@
 
 @media only screen and (max-width : 1439px){
     .rodape__infos__esquerda__img{
-        width: 25vh;
-        height: 10bh;
+        width: 35vh;
+        height: 8vh;
     }
 
     .rodape__infos__esquerda{
@@ -91,8 +91,8 @@
     }
 
     .rodape__infos__direita__dados{
-        font-size: 1.3rem;  
-        gap: 0.3rem;  
+        font-size: 1rem;  
+        gap: 0.8rem;  
     }
 
     .rodape__infos__direita__img{
