@@ -56,7 +56,7 @@
 
 #msg{
     grid-area: msg;
-    text-align: center;
+    padding: 1rem;
 }
 
 .botao__form{
@@ -92,13 +92,13 @@
 
 @media only screen and (max-width : 719px) {
     .contato__img{
-        height: 8vh;
+        height: 18vw;
     }
 
     .contato__form{
         display: grid;
         justify-content: center;
-        width: 40vh;
+        width: 90vw;
         background-color: #2C3790;
         border-radius: 4px;
         column-gap: 1rem;
@@ -122,6 +122,10 @@
         -webkit-box-shadow: 1px 1px 2px #333333;
         background: white;
         border: 0.1px solid #000000;
+    }
+
+    .contato__sub{
+        font-size: 5vw;
     }
 
 }

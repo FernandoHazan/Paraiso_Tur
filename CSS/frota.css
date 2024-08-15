@@ -59,7 +59,7 @@
     gap: 0.2em;
     width: 100%;
     padding-top: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 5px;
 }
 
@@ -119,7 +119,7 @@
     gap: 0.2em;
     width: 100%;
     padding-top: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 5px;
 }
 
@@ -130,6 +130,7 @@
 
 .caixa__infos{
     margin-top: auto;
+    font-size: 1.8vw;
 }
 
 .fota__caixa__botao2{
@@ -162,9 +163,7 @@
     }
 
     .frota__caixa__infos2{
-        padding-top: 1rem;
-        font-size: 2rem;
-        border-radius: 5px;
+        padding: 0 1rem 0 1rem;
     }
 
     .caixa__infos{
@@ -173,7 +172,8 @@
     }
 }
 
-@media only screen and (max-width : 719px) {
+@media only screen and (max-width : 1000px){
+    
     .frota__caixa{
         grid-template-columns: 1fr;
         width: 60%;
@@ -221,6 +221,18 @@
 
     .caixa__infos{
         margin-top: auto;
+        font-size: 4vw;
+    }
+
+    .caixa__info2{
+        margin-top: auto;
         font-size: 2vh;
+    }
+}
+
+@media only screen and (max-width : 450px){
+
+    .caixa__infos{
+        font-size: 20px;
     }
 }

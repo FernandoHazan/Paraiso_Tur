@@ -28,7 +28,7 @@
 
 .banner__botao{
     width: 25vh;
-    padding: 1rem;
+    padding: 1.2rem;
     color: white;
     background-color: #1c7ce2;
     margin-top: 2rem;
@@ -47,6 +47,8 @@
     .banner{
         background-image: url(../img/micro-cell.jpeg);
         height: 60%;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
     }
 
     .banner__titulo{
